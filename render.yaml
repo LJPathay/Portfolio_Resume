@@ -7,8 +7,6 @@ services:
     # Render automatically uses path/to/public for Laravel if configured
     # or you can use a Procfile. Let's stick to a clean config.
     envVars:
-      - key: APP_ENV
-        value: production
       - key: APP_DEBUG
         value: false
       - key: LOG_CHANNEL
