@@ -4,9 +4,10 @@ services:
     env: php
     plan: free
     buildCommand: ./render-build.sh
-    # Render automatically uses path/to/public for Laravel if configured
-    # or you can use a Procfile. Let's stick to a clean config.
+    startCommand: php artisan serve --host=0.0.0.0 --port=$PORT
     envVars:
+      - key: APP_ENV
+        value: production
       - key: APP_DEBUG
         value: false
       - key: LOG_CHANNEL
