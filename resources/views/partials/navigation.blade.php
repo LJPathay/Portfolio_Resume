@@ -19,6 +19,27 @@
                     <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-300"></span>
                 </button>
                 <button 
+                    onclick="scrollToSection('education')" 
+                    class="text-white hover:text-blue-400 transition-colors capitalize relative group"
+                >
+                    Education
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-300"></span>
+                </button>
+                <button 
+                    onclick="scrollToSection('skills')" 
+                    class="text-white hover:text-blue-400 transition-colors capitalize relative group"
+                >
+                    Skills
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-300"></span>
+                </button>
+                <button 
+                    onclick="scrollToSection('certifications')" 
+                    class="text-white hover:text-blue-400 transition-colors capitalize relative group"
+                >
+                    Certifications
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-300"></span>
+                </button>
+                <button 
                     onclick="scrollToSection('projects')" 
                     class="text-white hover:text-blue-400 transition-colors capitalize relative group"
                 >
@@ -50,6 +71,24 @@
                 class="text-white hover:text-blue-400 transition-colors text-left px-4 py-2 hover:bg-slate-800/50 rounded-lg capitalize"
             >
                 About
+            </button>
+            <button 
+                onclick="scrollToSection('education')" 
+                class="text-white hover:text-blue-400 transition-colors text-left px-4 py-2 hover:bg-slate-800/50 rounded-lg capitalize"
+            >
+                Education
+            </button>
+            <button 
+                onclick="scrollToSection('skills')" 
+                class="text-white hover:text-blue-400 transition-colors text-left px-4 py-2 hover:bg-slate-800/50 rounded-lg capitalize"
+            >
+                Skills
+            </button>
+            <button 
+                onclick="scrollToSection('certifications')" 
+                class="text-white hover:text-blue-400 transition-colors text-left px-4 py-2 hover:bg-slate-800/50 rounded-lg capitalize"
+            >
+                Certifications
             </button>
             <button 
                 onclick="scrollToSection('projects')" 

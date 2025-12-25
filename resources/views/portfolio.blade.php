@@ -145,6 +145,9 @@
             @include('partials.navigation')
             @include('partials.hero')
             @include('partials.about')
+            @include('partials.education')
+            @include('partials.skills')
+            @include('partials.certifications')
             @include('partials.projects')
             @include('partials.contact')
         </div>
